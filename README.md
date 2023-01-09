@@ -81,9 +81,7 @@ print(readLines(fp, offset=offsets[4], raw=True))
 for i in range(0, 10):
 
         lines = readLines(fp, offset=offsets[i])
-        for line in lines:
-            print(lines)
-
+        for line in lines: print(line)
         del lines 
 ```
 
