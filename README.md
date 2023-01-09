@@ -74,7 +74,7 @@ print(nearestOffset(0x1000, fp))
 #splits a file into parts and reads it without overloading memory
 offsets = getOffsets(fp) 
 
-#raw bytes of the 4th offset
+#raw bytes of the 5th offset
 print(readLines(fp, offset=offsets[4], raw=True))
 
 #prints lines from first 10 offsets
