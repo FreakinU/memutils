@@ -26,7 +26,7 @@ fp.close()
 
 ```
 
-### read the contents from the library and write them to a duplicate file
+### process contents using the module then write them to a duplicate file
 
 ```python
 from memutils import *
