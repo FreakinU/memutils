@@ -18,7 +18,7 @@ if os.path.exists(F_NAME): os.remove(F_NAME)
 
 fp = open(F_NAME, 'a')
 
-#not cpu friendly but it the job for a test
+#not cpu friendly but does the job for a test
 for i in range(0, 10 ** 8): # 100MB * 2 
 	fp.write("".join(sample(ascii_uppercase, 1)) + "\n")
 
